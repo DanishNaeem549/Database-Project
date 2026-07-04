@@ -7,7 +7,6 @@ danish-portfolio/
 ├── frontend/   React + Vite + Tailwind + Framer Motion
 └── backend/    Node.js + Express + MongoDB + JWT + Nodemailer
 ```
-
 ## 1. Pages
 
 | Page | Route | Notes |
