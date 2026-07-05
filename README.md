@@ -116,15 +116,5 @@ Run a Lighthouse audit against the built site to confirm scores before deploymen
 4. Add environment variable `VITE_API_URL` = your Render backend URL + `/api`.
 5. Deploy. Update `CLIENT_URL` in the backend's env to match the final Vercel domain, then redeploy the backend so CORS allows it.
 
-### Post-deploy checklist
-- [ ] Update `index.html` canonical URL, OG image, and `sitemap.xml`/`robots.txt` domains to your real domain
-- [ ] Replace placeholder project images/links/testimonials with real content
-- [ ] Verify contact form sends both the owner notification and client confirmation email
-- [ ] Confirm `/admin/dashboard` is unreachable without logging in
-- [ ] Run Lighthouse and fix any flagged accessibility/performance issues
 
-## 9. Tech Stack
 
-**Frontend:** React 18, Vite, Tailwind CSS, Framer Motion, React Router DOM, React Icons, Axios
-**Backend:** Node.js, Express, MongoDB (Mongoose), JWT, bcrypt, Nodemailer, Helmet, express-rate-limit
-**Deployment:** Vercel (frontend) · Render (backend) · MongoDB Atlas (database)
