@@ -32,7 +32,6 @@ cd backend
 npm install
 cp .env.example .env
 ```
-
 Fill in `.env`:
 - `MONGO_URI` — your Atlas connection string
 - `JWT_SECRET` — any long random string
