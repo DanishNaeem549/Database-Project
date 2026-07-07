@@ -50,7 +50,6 @@ npm install
 cp .env.example .env    # set VITE_API_URL if backend isn't on localhost:5000
 npm run dev              # http://localhost:5173
 ```
-
 Log in to the dashboard at `/admin/login` using the admin credentials from `.env`.
 
 ## 5. REST API Reference
