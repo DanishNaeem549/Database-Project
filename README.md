@@ -1,7 +1,6 @@
 # Danish Naeem — Portfolio Website
 
 A full-stack, production-ready personal portfolio: React (Vite + Tailwind) front-end, Node.js/Express backend, MongoDB Atlas database, JWT-protected admin dashboard, and a working contact-form email pipeline.
-
 ```
 danish-portfolio/
 ├── frontend/   React + Vite + Tailwind + Framer Motion
