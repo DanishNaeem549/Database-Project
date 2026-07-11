@@ -110,5 +110,3 @@ Run a Lighthouse audit against the built site to confirm scores before deploymen
 4. Add environment variable `VITE_API_URL` = your Render backend URL + `/api`.
 5. Deploy. Update `CLIENT_URL` in the backend's env to match the final Vercel domain, then redeploy the backend so CORS allows it.
 
-
-
