@@ -19,7 +19,6 @@ danish-portfolio/
 | Admin Dashboard | `/admin/dashboard` | Protected route — view/search/mark-read/delete/export CSV |
 | 404 | `*` | Any unmatched route |
 
-
 ## 3. Backend Setup
 
 ```bash
